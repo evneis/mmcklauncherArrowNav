@@ -22,12 +22,10 @@ Font: [SF Pro Text](https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts/blo
 ## Upgrade
 
 ``` Bash
-curl -s https://api.github.com/repos/snoutbug/mmcklauncher/releases/latest | grep "com.github.SnoutBug.mmckLauncher.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -qi -
+curl -s https://api.github.com/repos/evneis/mmcklauncherArrowNav/releases/latest | grep "com.github.evneis.mmckLauncherArrowNav.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -qi -
 plasmapkg2 --upgrade com.github.SnoutBug.mmckLauncher.tar.gz
 rm com.github.SnoutBug.mmckLauncher.tar.gz
 ```
 
 ## KDE Store
 [store.kde.org/p/1720532](https://store.kde.org/p/1720532/)
-
-https://api.github.com/repos/snoutbug/mmcklauncher/releases/latest
