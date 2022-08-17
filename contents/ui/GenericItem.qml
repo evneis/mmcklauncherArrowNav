@@ -108,10 +108,13 @@ Item {
     State {
       name: "highlight"; when: !canNavigate ? highlighted : runnerList.currentMainIndex == index && runnerList.currentSubIndex == subIndex
       PropertyChanges { target: rect; color: plasmoid.configuration.theming == 0 ? "#0E0E0F" : plasmoid.configuration.theming == 1 ? "#FFFFFF" : PlasmaCore.Theme.buttonFocusColor}
+      PropertyChanges { target: appname; color: plasmoid.configuration.theming == 0 ? "#FFFFFF" : plasmoid.configuration.theming == 1 ? "#0E0E0F" :
+      PlasmaCore.Theme.buttonHighlightedTextColor}
     },
     State {
       name: "default"; when: !canNavigate ? !highlighted : runnerList.currentMainIndex != index || runnerList.currentSubIndex != subIndex
       PropertyChanges { target: rect; color: backdrop.color}
+      PropertyChanges { target: appname; color: main.textColor}
     }]
     transitions: highlight
     onStateChanged: {
