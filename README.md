@@ -11,7 +11,7 @@ A Launcher for KDE Plasma based on a [design by Max McKinney](https://dribbble.c
 ## Installation
 
 ``` Bash
-curl -s https://api.github.com/repos/snoutbug/mmcklauncher/releases/latest | grep "com.github.SnoutBug.mmckLauncher.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -qi -
+curl -s https://api.github.com/repos/evneis/mmcklauncherArrowNav/releases/latest | grep "com.github.evneis.mmckLauncherArrowNav.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -qi -
 plasmapkg2 --install com.github.SnoutBug.mmckLauncher.tar.gz
 rm com.github.SnoutBug.mmckLauncher.tar.gz
 ```
@@ -29,3 +29,5 @@ rm com.github.SnoutBug.mmckLauncher.tar.gz
 
 ## KDE Store
 [store.kde.org/p/1720532](https://store.kde.org/p/1720532/)
+
+https://api.github.com/repos/snoutbug/mmcklauncher/releases/latest
