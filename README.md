@@ -27,5 +27,5 @@ plasmapkg2 --upgrade com.github.SnoutBug.mmckLauncher.tar.gz
 rm com.github.SnoutBug.mmckLauncher.tar.gz
 ```
 
-## KDE Store
+## Original Github Link
 [Original Project](https://github.com/SnoutBug/mmcklauncher)
