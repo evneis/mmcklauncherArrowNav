@@ -60,6 +60,9 @@ PlasmaExtras.ScrollArea {
     }
   }
 
+  // console.log("move left");
+  // Keys.onLeftPressed:
+
   function get_position(){
     return flickableItem.contentY / (flickableItem.contentHeight - height)
   }

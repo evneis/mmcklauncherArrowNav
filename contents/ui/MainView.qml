@@ -194,6 +194,7 @@ Item {
               focus = true;
               text = text + newText;
           }
+          //TODO Figure out why this isn't working
           Keys.onPressed: {
             if (event.key == Qt.Key_Down) {
               event.accepted = true;
